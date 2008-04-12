@@ -1,0 +1,9 @@
+package evtClassDefs
+version v0
+
+# $Id$
+
+use fitsGen *
+
+path_remove PYTHONPATH evtClassDefs
+path_append PYTHONPATH $(EVTCLASSDEFSROOT)/python

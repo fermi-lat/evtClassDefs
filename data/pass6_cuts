@@ -1,0 +1,7 @@
+#
+# Minimal Pass 6 cuts. See
+# http://www-glast.stanford.edu/protected/mail/irf/0157.html
+#
+# $Header$
+#
+(ObfGamStatus>0) && (CTBCORE>0) && (CTBBestEnergyProb>0) && (CTBBestEnergy>10) && (CTBBestEnergyRatio<5) && (CTBClassLevel>0)
