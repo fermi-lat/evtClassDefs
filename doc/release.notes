@@ -4,6 +4,10 @@
     $Id$
 
     @verbatim
+    v0r2   29-Apr-08   WBF  Shorten 7 TTYPEn in LS1 to keep GSSC happy.
+
+    v0r1   29-Apr-08   WBF  Add data/LS1Variables
+
     v0     12-Apr-08   JC   Initial import
     @endverbatim
 */
