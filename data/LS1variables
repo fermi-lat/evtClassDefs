@@ -99,7 +99,7 @@ CTBBestEnergy           CTBBestEnergy
 CTBBestEnergyProb       CTBBestEnergyProb 
 CTBBestEnergyRatio      CTBBestEnergyRatio
 CTBBestLogEnergy        CTBBestLogEnergy
-CTBBestPSFerr           CTBBestPSFerr 
+#CTBBestPSFerr           CTBBestPSFerr 
 CTBBestXDir             CTBBestXDir 
 CTBBestYDir             CTBBestYDir 
 CTBBestZDir             CTBBestZDir 
@@ -127,7 +127,7 @@ CTBProtonProb           CTBProtonProb
 CTBTKRGamProb           CTBTKRGamProb
 CTBTkrCoreCalDoca       CTBTkrCoreCalDoca
 CTBTkrEnergyFrac        CTBTkrEnergyFrac
-CTBTkrLATEdge           CTBTkrLATEdge
+#CTBTkrLATEdge           CTBTkrLATEdge
 CTBTkrSHRCalAngle       CTBTkrSHRCalAngle
 CTBTrackerProb          CTBTrackerProb
 CTBVTX                  CTBVTX
