@@ -4,6 +4,9 @@
     $Id$
 
     @verbatim
+    v0r4   26-May-08   JC   use pass 5 convention for events classes
+                            in Pass6_Classifier to be consistent with
+                            P6_v1 IRFs
     v0r2   29-Apr-08   WBF  Shorten 7 TTYPEn in LS1 to keep GSSC happy.
 
     v0r1   29-Apr-08   WBF  Add data/LS1Variables
