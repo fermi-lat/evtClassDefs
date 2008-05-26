@@ -31,8 +31,8 @@ Tkr1FirstLayer
 # partition the data into two event classes: just front vs back.
 #
 
-eventClassCuts = ["Tkr1FirstLayer < 11.5",
-                  "Tkr1FirstLayer > 11.5"]
+eventClassCuts = ["17 - Tkr1FirstLayer < 11.5",
+                  "17 - Tkr1FirstLayer > 11.5"]
 
 eventClassifier = EventClassifier(eventClassCuts)
 
