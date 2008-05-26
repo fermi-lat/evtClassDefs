@@ -13,6 +13,7 @@ meritVariables = """
 CTBClassLevel
 CTBCORE
 CTBBestEnergyProb
+Tkr1FirstLayer
 """.split()
 
 #
@@ -20,27 +21,39 @@ CTBBestEnergyProb
 # option), should contain the cuts that are common to all event
 # classes.
 #
-eventClassCuts = ["(CTBClassLevel==1) || ((CTBCORE<0.1) || (CTBBestEnergyProb<0.1))",
-                  "(CTBClassLevel==2) && (CTBCORE>0.1) && (CTBBestEnergyProb>0.1)",
-                  "(CTBClassLevel==3) && (CTBCORE>0.1) && (CTBBestEnergyProb>0.1)"]
+#eventClassCuts = ["(CTBClassLevel==1) || ((CTBCORE<0.1) || (CTBBestEnergyProb<0.1))",
+#                  "(CTBClassLevel==2) && (CTBCORE>0.1) && (CTBBestEnergyProb>0.1)",
+#                  "(CTBClassLevel==3) && (CTBCORE>0.1) && (CTBBestEnergyProb>0.1)"]
+
+#
+# The current P6_v1 IRFs *do not* partition the data, i.e., we are still relying on
+# CTBClassLevel in FT1 to get Bill's "analysis classes".  In this case, we need
+# partition the data into two event classes: just front vs back.
+#
+
+eventClassCuts = ["Tkr1FirstLayer < 11.5",
+                  "Tkr1FirstLayer > 11.5"]
 
 eventClassifier = EventClassifier(eventClassCuts)
 
 if __name__ == '__main__':
-    rows = [{'CTBClassLevel' : 1},
-            {'CTBClassLevel' : 2,
-             'CTBCORE' : 0.05,
-             'CTBBestEnergyProb' : 0.05},
-            {'CTBClassLevel' : 3,
-             'CTBCORE' : 0.05,
-             'CTBBestEnergyProb' : 0.11},
-            {'CTBClassLevel' : 2,
-             'CTBCORE' : 0.11,
-             'CTBBestEnergyProb' : 0.11},
-            {'CTBClassLevel' : 3,
-             'CTBCORE' : 0.11,
-             'CTBBestEnergyProb' : 0.11}]
-    classes = (0, 0, 0, 1, 2)
-
+#    rows = [{'CTBClassLevel' : 1},
+#            {'CTBClassLevel' : 2,
+#             'CTBCORE' : 0.05,
+#             'CTBBestEnergyProb' : 0.05},
+#            {'CTBClassLevel' : 3,
+#             'CTBCORE' : 0.05,
+#             'CTBBestEnergyProb' : 0.11},
+#            {'CTBClassLevel' : 2,
+#             'CTBCORE' : 0.11,
+#             'CTBBestEnergyProb' : 0.11},
+#            {'CTBClassLevel' : 3,
+#             'CTBCORE' : 0.11,
+#             'CTBBestEnergyProb' : 0.11}]
+#    classes = (0, 0, 0, 1, 2)
+#
+    rows = [{'Tkr1FirstLayer' : 10}, 
+            {'Tkr1FirstLayer' : 12}]
+    classes = (0, 1)
     for row, id in zip(rows, classes):
         assert(id == eventClassifier(row))
