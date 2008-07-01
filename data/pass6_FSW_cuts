@@ -1,0 +1,7 @@
+#
+# Minimal Pass 6 cuts for LEO. See
+# http://www-glast.stanford.edu/protected/mail/irf/0157.html
+#
+# $Header$
+#
+(FswGamState==0||FswGamState==3) && (CTBCORE>0) && (CTBBestEnergyProb>0) && (CTBBestEnergy>10) && (CTBBestEnergyRatio<5) && (CTBClassLevel>0)

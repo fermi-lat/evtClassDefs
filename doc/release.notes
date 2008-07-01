@@ -4,6 +4,8 @@
     $Id$
 
     @verbatim
+    v0r6   01-Jul-08   JC   add pass6_FSW_cuts that use FSW filter condition
+                            to be used instead of ObfGamStatus>0 in pass6_cuts
     v0r5   24-Jun-08   JC   update merit variable names in LS1variables
     v0r4   26-May-08   JC   use pass 5 convention for events classes
                             in Pass6_Classifier to be consistent with
