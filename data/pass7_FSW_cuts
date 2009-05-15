@@ -1,0 +1,6 @@
+#
+# Minimal Pass 7 cuts for photons
+#
+# $Header$
+#
+(FT1EventClass>=1 && FT1EventClass<=8)

@@ -30,7 +30,7 @@ Ft1EventClass
 # variable in merit.  These values will be integers from 1 to 9.  See
 # https://confluence.slac.stanford.edu/display/SCIGRPS/CTBClassLevel+Definition+for+P7
 #
-eventClassCuts = ["Ft1EventClass == %i" % i for i in range(0, 9)]
+eventClassCuts = ["FT1EventClass == %i" % i for i in range(0, 9)]
 
 eventClassifier = EventClassifier(eventClassCuts)
 
