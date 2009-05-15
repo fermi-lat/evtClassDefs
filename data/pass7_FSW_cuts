@@ -3,4 +3,4 @@
 #
 # $Header$
 #
-(FT1EventClass>=1 && FT1EventClass<=8)
+(FT1EventClass>0.5 && FT1EventClass<8.5)
