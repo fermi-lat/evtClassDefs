@@ -23,7 +23,7 @@ FT1EventClass
 
 #
 # Event classes in P7 will simply be a direct mapping from the Ft1EventClass
-# variable in merit.  These values will be integers from 1 to 9.  See
+# variable in merit.  These values will be integers from 1 to 8.  See
 # https://confluence.slac.stanford.edu/display/SCIGRPS/CTBClassLevel+Definition+for+P7
 #
 eventClassCuts = ["FT1EventClass == %i" % i for i in range(0, 9)]
