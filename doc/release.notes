@@ -4,6 +4,7 @@
     $Id$
 
     @verbatim
+    v0r7   19-May-09   JC   add cuts and classifier script for Pass 7
     v0r6p1 31-Mar-09   JC   added updated LS1 dictionary file from Julie
     v0r6   01-Jul-08   JC   add pass6_FSW_cuts that use FSW filter condition
                             to be used instead of ObfGamStatus>0 in pass6_cuts
