@@ -12,11 +12,7 @@ These definitions partition the events into three classes.
 from EventClassifier import EventClassifier
 
 meritVariables = """
-CTBClassLevel
-CTBCORE
-CTBBestEnergyProb
-Tkr1FirstLayer
-Ft1EventClass
+FT1EventClass
 """.split()
 
 #
@@ -35,8 +31,8 @@ eventClassCuts = ["FT1EventClass == %i" % i for i in range(0, 9)]
 eventClassifier = EventClassifier(eventClassCuts)
 
 if __name__ == '__main__':
-    rows = [{'Ft1EventClass' : 1}, 
-            {'Ft1EventClass' : 2}]
+    rows = [{'FT1EventClass' : 1}, 
+            {'FT1EventClass' : 2}]
     classes = (1, 2)
     for row, id in zip(rows, classes):
         assert(id == eventClassifier(row))
