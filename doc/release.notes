@@ -4,6 +4,8 @@
     $Id$
 
     @verbatim
+    v0r9   14-Jul-09   JC   add classifier script to map CTBClassLevel
+                            to EVENT_CLASS for Pass 6 reprocessing
     v0r8   24-Jun-09   JC   add (pass-through) P7_electron_Classifier.py
     v0r7   19-May-09   JC   add cuts and classifier script for Pass 7
     v0r6p1 31-Mar-09   JC   added updated LS1 dictionary file from Julie
