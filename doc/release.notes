@@ -4,6 +4,7 @@
     $Id$
 
     @verbatim
+    v0r10  22-Jul-09   JC   new LS1variables
     v0r9   14-Jul-09   JC   add classifier script to map CTBClassLevel
                             to EVENT_CLASS for Pass 6 reprocessing
     v0r8   24-Jun-09   JC   add (pass-through) P7_electron_Classifier.py
