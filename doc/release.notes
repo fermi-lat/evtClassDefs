@@ -4,6 +4,8 @@
     $Id$
 
     @verbatim
+    v0r12  23-Jul-09   TG   removed 'return' chars from LS1variables
+    v0r11  23-Jul-09   TG   removed 5 new LS1variables (per Julie)
     v0r10  22-Jul-09   JC   new LS1variables
     v0r9   14-Jul-09   JC   add classifier script to map CTBClassLevel
                             to EVENT_CLASS for Pass 6 reprocessing
