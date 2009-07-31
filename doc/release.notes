@@ -4,6 +4,8 @@
     $Id$
 
     @verbatim
+    v0r13  31-Jul-09   TG   revert to LS1variables of v0r9 (per Julie)
+                            to be used for first public data release
     v0r12  23-Jul-09   TG   removed 'return' chars from LS1variables
     v0r11  23-Jul-09   TG   removed 5 new LS1variables (per Julie)
     v0r10  22-Jul-09   JC   new LS1variables
