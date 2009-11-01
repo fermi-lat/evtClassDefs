@@ -28,3 +28,4 @@
     @endverbatim
 */
  evtClassDefs-00-14-00 04-Aug-2009 dragon Update Pass6_Reprocessing_Classifier
+ evtClassDefs-00-15-00 01-Nov-2009 jchiang extend Pass7_FSW_cuts to include FT1EventClass<=10
