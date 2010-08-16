@@ -30,3 +30,4 @@
  evtClassDefs-00-14-00 04-Aug-2009 dragon Update Pass6_Reprocessing_Classifier
  evtClassDefs-00-15-00 01-Nov-2009 jchiang extend Pass7_FSW_cuts to include FT1EventClass<=10
  evtClassDefs-00-16-00 17-Nov-2009 jchiang extend event class cuts to include extra-diffuse and data-clean
+ evtClassDefs-00-17-00 16-Aug-2010 dragon Updated TCut files for photons and electrons, add new class definition XML file
