@@ -1,0 +1,6 @@
+#
+# Minimal Pass 7.3 cuts for photons
+#
+# $Header$
+#
+(FT1EventClass!=0)
