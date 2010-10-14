@@ -31,3 +31,4 @@
  evtClassDefs-00-15-00 01-Nov-2009 jchiang extend Pass7_FSW_cuts to include FT1EventClass<=10
  evtClassDefs-00-16-00 17-Nov-2009 jchiang extend event class cuts to include extra-diffuse and data-clean
  evtClassDefs-00-17-00 16-Aug-2010 dragon Updated TCut files for photons and electrons, add new class definition XML file
+ evtClassDefs-00-18-00 14-Oct-2010 dragon Introduce new classifier script which adds 'dataclean' photon event classification.  This is needed for P116 (Pass 6) reprocessing.
