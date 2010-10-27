@@ -1,0 +1,8 @@
+#
+# Minimal Pass 7.4 cuts for photons
+#
+# $Header$
+#
+# Selection events in Source class
+#
+CTBParticleType==0 && CTBClassLevel >= 1 && CalTrackDoca < sqrt(100. + (15000000/max(CTBBestEnergy,10.))) && CTBAllProb > max(0.7,0.996-1.4e-4*pow(max(5.4-CTBBestLogEnergy,0),5.3)) && CTBBestEnergyProb > 0.1 && (CTBWasLkHd==0 || CTBBestEnergyProb > 0.3) && CTBCALGamProb > 0. && CTBTKRGamProb > 0. && CTBCORE > max(0.025,0.025+0.175*(3.-CTBBestLogEnergy)) && CalTrackAngle * min(1., sqrt(CTBBestEnergy/20000)) < 0.35 && CalTrSizeTkrT100 > 17.2-8.6342e-7*pow(max(10.83-CTBBestLogEnergy,0),7.229) && (TkrNumTracks > 1||(Tkr1Chisq > 0.4 && (CTBBestEnergy < 100 || CalTransRms > 15-12.5*max(2.4-CTBBestLogEnergy,0.))))
