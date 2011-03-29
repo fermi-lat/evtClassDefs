@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<EventClass version="P7V4">
+<EventClass version="P7V6">
   <EventMap mapName="FT1EventClass" altName="EVENT_CLASS">
     <EventCategory name="Transient" bit="0">
       <ShortCut>CTBParticleType==0 &amp;&amp; CTBClassLevel &gt;= 1</ShortCut>
