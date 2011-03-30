@@ -33,3 +33,4 @@
  evtClassDefs-00-17-00 16-Aug-2010 dragon Updated TCut files for photons and electrons, add new class definition XML file
  evtClassDefs-00-18-00 14-Oct-2010 dragon Introduce new classifier script which adds 'dataclean' photon event classification.  This is needed for P116 (Pass 6) reprocessing.
  evtClassDefs-00-19-00 24-Jan-2011 echarles Added Pass7.4 classifier
+ evtClassDefs-00-19-01 30-Mar-2011 echarles Added xml/EvtClassDefs_P7V6.xml
