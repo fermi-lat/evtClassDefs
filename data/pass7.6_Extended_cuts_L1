@@ -1,0 +1,10 @@
+#
+# Minimal Pass 7.6 cuts for photons
+#
+# $Header$
+#
+# Selection events in Transient | S2 | NoCal | CalOnly 
+# No LLE photons are present in this selections
+# Note that this uses the bits calculated in the MeritFile
+#
+((FT1EventClass & 0x 00003EFF)!=0)

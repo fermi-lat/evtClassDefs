@@ -1,0 +1,10 @@
+#
+# Minimal Pass 7.6 cuts for photons
+#
+# $Header$
+#
+# Selection events in Source and above 
+# No LLE photons are present in this selections
+# Note that this uses the bits calculated in the MeritFile
+#
+((FT1EventClass & 0x 4)!=0)

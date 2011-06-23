@@ -1,0 +1,9 @@
+#
+# Minimal Pass 7.6 cuts for photons
+#
+# $Header$
+#
+# Selection events in Transient and above 
+# Note that this uses the bits calculated in the MeritFile
+#
+((FT1EventClass & 0x 1)!=0)

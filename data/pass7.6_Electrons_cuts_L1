@@ -1,0 +1,6 @@
+#
+# Minimal Pass 7.6 cuts for electrons
+#
+# $Header$
+#
+(CTBParticleType==1)
