@@ -7,4 +7,4 @@
 # No LLE photons are present in this selections
 # Note that this uses the bits calculated in the MeritFile
 #
-((FT1EventClass & 0x 00003EFF)!=0)
+((FT1EventClass & 0x00003EFF)!=0)
