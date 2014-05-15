@@ -1,4 +1,4 @@
 # -*- python -*-
 # $Id$
 # Authors: J.Chiang <JCHIANG@SLAC.STANFORD.EDU>
-# Version: evtClassDefs-00-19-05
+# Version: evtClassDefs-01-00-00
