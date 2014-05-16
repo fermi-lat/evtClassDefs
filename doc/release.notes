@@ -39,3 +39,4 @@
  evtClassDefs-00-19-04 23-Jun-2011 echarles tag all subdirs
  evtClassDefs-00-19-05 06-Mar-2013 jchiang add P7REP xml class definitions
  evtClassDefs-01-00-00 15-May-2014 mdwood New event class definitions for P301 FT1 processing.
+ evtClassDefs-01-00-01 16-May-2014 mdwood Adding transient cut definition for P301 processing.
