@@ -41,3 +41,4 @@
  evtClassDefs-01-00-00 15-May-2014 mdwood New event class definitions for P301 FT1 processing.
  evtClassDefs-01-00-01 16-May-2014 mdwood Adding transient cut definition for P301 processing.
  evtClassDefs-01-00-02 16-Dec-2014 mdwood Changing version naming convention for P8 data releases.
+ evtClassDefs-01-00-03 13-Jan-2015 monzani adding P8 file for electrons
