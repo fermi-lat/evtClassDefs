@@ -42,3 +42,4 @@
  evtClassDefs-01-00-01 16-May-2014 mdwood Adding transient cut definition for P301 processing.
  evtClassDefs-01-00-02 16-Dec-2014 mdwood Changing version naming convention for P8 data releases.
  evtClassDefs-01-00-03 13-Jan-2015 monzani adding P8 file for electrons
+ evtClassDefs-01-01-00 15-Jan-2015 mdwood Adding new cuts and class definitions for P8R2.
