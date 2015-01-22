@@ -52,3 +52,6 @@ PtDecz PtDecz
 PtRax PtRax
 PtDecx PtDecx
 PtSCzenith PtSCzenith
+PtPosx PtPos[0]
+PtPosy PtPos[1]
+PtPosz PtPos[2]
