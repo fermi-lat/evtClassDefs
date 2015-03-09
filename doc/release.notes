@@ -46,3 +46,4 @@
  evtClassDefs-01-01-01 22-Jan-2015 mdwood Adding spacecraft position variables to P8 LS1 format.
  evtClassDefs-01-01-02 30-Jan-2015 monzani removing empty line from transient P8 cut
  evtClassDefs-01-01-03 20-Feb-2015 mdwood Updating class names for P8R2.
+ evtClassDefs-01-01-04 09-Mar-2015 mdwood Adding condition on GltGemSummary to P8R2 classes and data set selections.
