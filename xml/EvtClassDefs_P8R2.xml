@@ -126,10 +126,10 @@
   </EventMap>
   <AliasDict>
     <Alias name="AllTkrFilter">
-      FswGamFilter&amp;&amp;TracksFilter
+      FswGamFilter&amp;&amp;TriggerFilter&amp;&amp;TracksFilter
     </Alias>
     <Alias name="CalTkrFilter">
-      FswGamFilter&amp;&amp;TracksFilter&amp;&amp;EvtCalCsIRLn&gt;4 &amp;&amp; CalTrackAngleFilter
+      FswGamFilter&amp;&amp;TriggerFilter&amp;&amp;TracksFilter&amp;&amp;EvtCalCsIRLn&gt;4 &amp;&amp; CalTrackAngleFilter
     </Alias>
     <Alias name="CalTkrQualityFilter">
       WP8CTPSFTail &gt; 0.05 &amp;&amp; WP8CTBestEnergyProb &gt; 0.1
@@ -201,7 +201,7 @@
       Tkr1SSDVeto&gt;0.5
     </Alias>
     <Alias name="TkrOnlyFilter">
-      FswGamFilter&amp;&amp;TracksFilter&amp;&amp;TkrOnlyRLnFilter &amp;&amp; CalTrackAngleFilter
+      FswGamFilter&amp;&amp;TriggerFilter&amp;&amp;TracksFilter&amp;&amp;TkrOnlyRLnFilter &amp;&amp; CalTrackAngleFilter
     </Alias>
     <Alias name="TkrOnlyQualityFilter">
       WP8CTPSFTail &gt; 0.05 &amp;&amp; WP8CTBestEnergyProb &gt; 0.1
@@ -211,6 +211,9 @@
     </Alias>
     <Alias name="TracksFilter">
       TkrNumTracks &gt; 0
+    </Alias>
+    <Alias name="TriggerFilter">
+      (GltGemSummary&amp;0x60)==0
     </Alias>
     <Alias name="WP8CTAllProbLog">
       -log10(1.0-WP8CTAllProb)
