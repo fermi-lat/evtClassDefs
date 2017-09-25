@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<EventClass version="P8R2">
+<EventClass version="P8R3">
   <EventMap altName="EVENT_CLASS" mapName="FT1EventClass">
     <EventCategory bit="0" name="TRANSIENT100A">
       <ShortCut>
