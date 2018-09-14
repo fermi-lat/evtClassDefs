@@ -230,7 +230,7 @@
       (Tkr1ToTTrAve-(2+8*CalMaxNumXtalsInLayer/max(2,8+4*(EvtJointLogEnergy-4))) &lt; max(0,4*pow(EvtJointLogEnergy-4.5,4)-4))
     </Alias>
     <Alias name="RibbonFilter">
-      Acd2Tkr1RibbonActDist  &lt; min(min(min(-40+50*(EvtJointLogEnergy-1.4),-30+20*(EvtJointLogEnergy-1.5)),max(-20.,-20+(EvtJointLogEnergy-4.2)*10)),0)
+      Acd2Tkr1RibbonActDist  &lt; min(0.,max(-5.,-5+(EvtJointLogEnergy-4)*2.5))
     </Alias>
     <Alias name="AcdTileEnergyCor">
       (Acd2TileIdRecon&gt;=0&amp;&amp;Acd2TileIdRecon&lt;=50)*Acd2Tkr1TileActDistEnergy*(1-0.1666*(Acd2TileIdRecon&gt;=20&amp;&amp;Acd2TileIdRecon&lt;=24))*abs(Tkr1ZDir)+((Acd2TileIdRecon&gt;=100&amp;&amp;Acd2TileIdRecon&lt;=150)||(Acd2TileIdRecon&gt;=300&amp;&amp;Acd2TileIdRecon&lt;=350))*Acd2Tkr1TileActDistEnergy*abs(Tkr1XDir)+((Acd2TileIdRecon&gt;=200&amp;&amp;Acd2TileIdRecon&lt;=250)||(Acd2TileIdRecon&gt;=400&amp;&amp;Acd2TileIdRecon&lt;=450))*Acd2Tkr1TileActDistEnergy*abs(Tkr1YDir)
